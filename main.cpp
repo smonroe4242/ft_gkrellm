@@ -6,7 +6,7 @@
 //   By: smonroe <marvin@42.fr>                     +#+  +:+       +#+        //
 //                                                +#+#+#+#+#+   +#+           //
 //   Created: 2019/02/01 15:37:30 by smonroe           #+#    #+#             //
-//   Updated: 2019/02/03 23:31:29 by smonroe          ###   ########.fr       //
+//   Updated: 2019/02/05 17:15:32 by smonroe          ###   ########.fr       //
 //                                                                            //
 // ************************************************************************** //
 
@@ -27,6 +27,7 @@ int usage( void )
 	std::cout << "\t-c : CPU" << std::endl;
 	std::cout << "\t-r : RAM" << std::endl;
 	std::cout << "\t-n : Network" << std::endl;
+	std::cout << "\t-a : Ascii Cat" << std::endl;
 	return 1;
 }
 

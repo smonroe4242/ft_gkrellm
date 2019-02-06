@@ -13,7 +13,7 @@ NetworkModule& NetworkModule::operator=( NetworkModule const & rhs)
 
 std::string NetworkModule::getName( void ) const { return _name; }
 std::vector<std::string> NetworkModule::getInfo( void ) const { return _info; }
-# define MYMAX 2147483647
+
 void	NetworkModule::setInfo( void )
 {
 	struct ifaddrs *ifp = 0;
